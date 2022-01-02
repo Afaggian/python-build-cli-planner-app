@@ -11,8 +11,8 @@ from dateutil.parser import parse
 from datetime import datetime, timedelta
 from pathlib import Path
 
-import app
 from src import database
+import app
 from src import reminder
 try:
     from src import deadlined_reminders as dr
